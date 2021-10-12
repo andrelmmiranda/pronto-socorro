@@ -1,0 +1,20 @@
+<mat-card class="mat-elevation-z4">
+  <table>
+    <tr>
+      <th>Id: </th>
+      <th>Nome: </th>
+      <th>Idade: </th>
+      <th>Prioridade: </th>
+      
+    </tr>
+    <tr *ngFor="let register of register">
+      <td [ngStyle]="{'display':register.status === true ? '' : 'none'}">{{register.id}}</td>
+      <td [ngStyle]="{'display':register.status === true ? '' : 'none'}">{{register.name}}</td>
+      <td [ngStyle]="{'display':register.status === true ? '' : 'none'}">{{register.age}}</td>
+      <td [ngStyle]="{'display':register.status === true ? '' : 'none'}">{{register.priority}}</td>
+    </tr>
+    
+  </table>
+</mat-card>
+
+

@@ -1,0 +1,10 @@
+button{
+    background-color: var(--light-red);
+    color: #fff;
+    margin-top: 16px;
+    margin-bottom: 25px;
+}
+
+button i{
+    margin-left: 8px;
+}

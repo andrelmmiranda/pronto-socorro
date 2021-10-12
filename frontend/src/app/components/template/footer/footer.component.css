@@ -1,0 +1,19 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    background-color: var(--light-red);
+    color: #fff;
+}
+
+img{
+    width: 30px;
+}
+
+span{
+    font-size: 14px;
+    margin-left: 25px;
+}

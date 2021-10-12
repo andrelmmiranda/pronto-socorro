@@ -1,0 +1,17 @@
+<mat-card class="mat-elevation-z3">
+    <mat-card-title>Novo Registro</mat-card-title>
+    <form action="">
+        <mat-form-field>
+            <input type="text" matInput placeholder="Nome" [(ngModel)]="register.name" name="name">
+        </mat-form-field>
+        <mat-form-field>
+            <input type="number" matInput placeholder="Idade" [(ngModel)]="register.age" name="age">
+        </mat-form-field>
+    </form>
+    <button mat-raised-button (click)="newRegister()">
+        Salvar Registro <i class="material-icons">check</i>
+    </button>
+    <button mat-raised-button color="warn" (click)="cancel()">
+        Cancelar <i class="material-icons">close</i>
+    </button>
+</mat-card>
